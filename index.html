@@ -11,6 +11,7 @@
 
 	  gtag('config', 'G-8B2Q5GJNFV');
 	</script>
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -169,6 +170,12 @@
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="Disclaimer.html">Disclaimer</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Tools</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">My Internet Speed Test</a></li>
+            </ul>
+          </li>
       </nav><!-- .navbar -->
 
 
@@ -235,7 +242,7 @@
       </div>
     </section><!-- End Features Section -->
 
-    <section id="hero-static" class="hero-static align-items-center" style="width: 60%; margin: auto;">
+    <section id="hero-static" class="hero-static align-items-center" style="width: 75%; margin: auto;">
     <div class="container ipinfo d-flex flex-column justify-content-center align-items-center text-center position-relative">
       <h2>About MyIPv4Address.com</h2>
     </div>
@@ -338,7 +345,7 @@
 
   <script type="text/javascript">
   	$( document ).ready(function() {
-	   	
+
   		$.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
 		  data = data.trim().split('\n').reduce(function(obj, pair) {
 		    pair = pair.split('=');
